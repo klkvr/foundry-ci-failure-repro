@@ -9,6 +9,7 @@ on:
 
 env:
   FOUNDRY_PROFILE: ci
+  RUST_LOG: trace
 
 jobs:
   build:
